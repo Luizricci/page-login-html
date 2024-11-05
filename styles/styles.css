@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-circles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.orange {
+    width: 25rem;
+    height: 25rem;
+    background-color: #ffa500;
+    background: linear-gradient(to bottom, #ff5f03, #ffe600);
+    top: 50%;
+    left: 20%;
+}
+
+.purple {
+    width: 12em;
+    height: 12rem;
+    background-color: #af04ff;
+    top: 22%;
+    left: 40%;
+}
+
+.red {
+    width: 20rem;
+    height: 20rem;
+    background-color: #ff0000;
+    top: 35%;
+    right: 25%;
+}
+
+.green {
+    width: 7rem;
+    height: 7rem;
+    background-color: #13886b;
+    top: 59%;
+    left: 45%;
+}
+
+
+.all-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box-50{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    gap: 20rem ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn-criar{
+    background-color: red ;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 65px;
+    cursor: pointer;
+
+}
+.contatos-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato{
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.metade-tela {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%; /* Certifique-se de que a altura da div seja definida */
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 3.5px;
+    margin-left: 3px;
+}
+circle1{
+    background-color: blue;
+    height: 200px ;
+    width: 200px;
+    top:400px   ;
+    left: 280px;
+}
+circle2{
+    background-color: orange;
+}
+circle3{
+    background-color: green;
+}
+circle4{
+    background-color: yellow;
+}
+
+.lado-oposto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    height: 100%;
+}
+
+.right-content {
+    margin-top: 4rem;
+}
+
+.right-side h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.remember-me label {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.login {
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
